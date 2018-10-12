@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Canopy_Assignment">
+              <span class="suite-name border-passed">Canopy Assignment</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Canopy_Assignment">
+                    <span>Z:\AssignmentCanopy\PageObjectwithFactories1\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Canopy_Assignment">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Canopy_Assignment">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Canopy_Assignment">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Canopy_Assignment">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Canopy_Assignment">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Canopy_Assignment">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Canopy_Assignment" class="hide-methods passed suite-Canopy_Assignment"> (hide)</a> <!-- hide-methods passed suite-Canopy_Assignment -->
+                      <a href="#" panel-name="suite-Canopy_Assignment" class="show-methods passed suite-Canopy_Assignment"> (show)</a> <!-- show-methods passed suite-Canopy_Assignment -->
+                    </span>
+                    <div class="method-list-content passed suite-Canopy_Assignment">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Canopy_Assignment" title="com.ajmal.testcases.AccountHoldingsTest" hash-for-method="calculateTotalNetworthTest">calculateTotalNetworthTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Canopy_Assignment" title="com.ajmal.testcases.ReportsTest" hash-for-method="copyReportTemplateTest">copyReportTemplateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Canopy_Assignment" title="com.ajmal.testcases.ReportsTest" hash-for-method="createReportTemplateTest">createReportTemplateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Canopy_Assignment" title="com.ajmal.testcases.ReportsTest" hash-for-method="deleteReportTemplateTest">deleteReportTemplateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Canopy_Assignment" title="com.ajmal.testcases.ReportsTest" hash-for-method="editReportTemplateTest">editReportTemplateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Canopy_Assignment -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Canopy_Assignment" class="panel Canopy_Assignment">
+          <div class="suite-Canopy_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ajmal.testcases.ReportsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyReportTemplateTest">
+                  </a> <!-- copyReportTemplateTest -->
+                  <span class="method-name">copyReportTemplateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createReportTemplateTest">
+                  </a> <!-- createReportTemplateTest -->
+                  <span class="method-name">createReportTemplateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteReportTemplateTest">
+                  </a> <!-- deleteReportTemplateTest -->
+                  <span class="method-name">deleteReportTemplateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editReportTemplateTest">
+                  </a> <!-- editReportTemplateTest -->
+                  <span class="method-name">editReportTemplateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Canopy_Assignment-class-passed -->
+          <div class="suite-Canopy_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ajmal.testcases.AccountHoldingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateTotalNetworthTest">
+                  </a> <!-- calculateTotalNetworthTest -->
+                  <span class="method-name">calculateTotalNetworthTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Canopy_Assignment-class-passed -->
+        </div> <!-- panel Canopy_Assignment -->
+        <div panel-name="test-xml-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Z:\AssignmentCanopy\PageObjectwithFactories1\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Canopy Assignment&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ajmal.listeners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.ajmal.errorcollectors.TestListenerAdapter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Reports_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ajmal.testcases.ReportsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reports_Test --&gt;
+  &lt;test name=&quot;Account_Holdings_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ajmal.testcases.AccountHoldingsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Account_Holdings_Test --&gt;
+&lt;/suite&gt; &lt;!-- Canopy Assignment --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Canopy Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Reports_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Account_Holdings_Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Canopy Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Canopy Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Canopy_Assignment');
+function tableData_Canopy_Assignment() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'calculateTotalNetworthTest')
+data.setCell(0, 2, 'com.ajmal.testcases.AccountHoldingsTest')
+data.setCell(0, 3, 35841);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'editReportTemplateTest')
+data.setCell(1, 2, 'com.ajmal.testcases.ReportsTest')
+data.setCell(1, 3, 34328);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createReportTemplateTest')
+data.setCell(2, 2, 'com.ajmal.testcases.ReportsTest')
+data.setCell(2, 3, 24695);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'copyReportTemplateTest')
+data.setCell(3, 2, 'com.ajmal.testcases.ReportsTest')
+data.setCell(3, 3, 23962);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteReportTemplateTest')
+data.setCell(4, 2, 'com.ajmal.testcases.ReportsTest')
+data.setCell(4, 3, 18526);
+window.suiteTableData['Canopy_Assignment']= { tableData: data, tableDiv: 'times-div-Canopy_Assignment'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Canopy_Assignment">
+              </div> <!-- times-div-Canopy_Assignment -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Canopy Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Canopy_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ajmal.testcases.ReportsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">createReportTemplateTest</span>
+                <span class="method-start">32278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editReportTemplateTest</span>
+                <span class="method-start">67404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">copyReportTemplateTest</span>
+                <span class="method-start">101864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteReportTemplateTest</span>
+                <span class="method-start">125929 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ajmal.testcases.AccountHoldingsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calculateTotalNetworthTest</span>
+                <span class="method-start">145031 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ajmal.testcases.ReportsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">181005 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

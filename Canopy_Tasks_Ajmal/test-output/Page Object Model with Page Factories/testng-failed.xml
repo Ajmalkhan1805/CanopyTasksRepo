@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model with Page Factories]">
+  <listeners>
+    <listener class-name="com.ajmal.listeners.CustomListeners"/>
+    <listener class-name="com.ajmal.errorcollectors.TestListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Create Report Template Test(failed)">
+    <classes>
+      <class name="com.ajmal.testcases.CreateReportTemplateTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createReportTemplateTest"/>
+        </methods>
+      </class> <!-- com.ajmal.testcases.CreateReportTemplateTest -->
+    </classes>
+  </test> <!-- Create Report Template Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model with Page Factories] -->

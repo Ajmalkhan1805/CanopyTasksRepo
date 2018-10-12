@@ -1,0 +1,42 @@
+12/10/2018 19:30:45 devpinoyLogger Launching Chrome
+12/10/2018 19:31:02 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
+12/10/2018 19:31:02 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
+12/10/2018 19:31:05 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
+12/10/2018 19:31:06 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+12/10/2018 19:31:07 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section//reporting-manage-component/section/div/div[1]/div/a[1]]
+12/10/2018 19:31:09 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //*[@id='reportName']] entered value as : Template64aaa2e1489c40b89cf04c77e20a5d45
+12/10/2018 19:31:09 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[1]/div[1]/form[1]/div[2]/div[1]/div[5]/div[1]/span[1]/span[1]]
+12/10/2018 19:31:10 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[@id='reportTypes-list']//input[@class='k-textbox']] entered value as : Style template
+12/10/2018 19:31:13 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
+12/10/2018 19:31:25 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template64aaa2e1489c40b89cf04c77e20a5d45
+12/10/2018 19:31:25 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
+12/10/2018 19:31:37 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
+12/10/2018 19:31:37 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
+12/10/2018 19:31:39 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
+12/10/2018 19:31:39 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+12/10/2018 19:31:49 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[@class='form-horizontal']//div[6]//div[1]//span[1]//span[1]//span[2]]
+12/10/2018 19:31:51 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[1]//div[2]//ul[1]//li[3][@data-offset-index='2'][contains(text(),'Ready To Assign')]]
+12/10/2018 19:31:52 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
+12/10/2018 19:32:10 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
+12/10/2018 19:32:12 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
+12/10/2018 19:32:12 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
+12/10/2018 19:32:13 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
+12/10/2018 19:32:14 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+12/10/2018 19:32:23 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //*[@id='reportName']] entered value as : Template39862e13a04d48939450b7c84bfefda1
+12/10/2018 19:32:23 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
+12/10/2018 19:32:34 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
+12/10/2018 19:32:35 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
+12/10/2018 19:32:36 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
+12/10/2018 19:32:37 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
+12/10/2018 19:32:38 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+12/10/2018 19:32:51 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //a[@class='k-button k-grid-deleteReport grid-delete-button']//span[@class='k-icon k-i-delete']]
+12/10/2018 19:32:52 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@data-bb-handler='confirm']]
+12/10/2018 19:32:52 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template64aaa2e1489c40b89cf04c77e20a5d45
+12/10/2018 19:32:53 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template39862e13a04d48939450b7c84bfefda1
+12/10/2018 19:32:53 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
+12/10/2018 19:32:54 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
+12/10/2018 19:32:54 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
+12/10/2018 19:32:56 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //a[@id='25']//span[contains(text(),'USER ACCOUNTS')]]
+12/10/2018 19:33:06 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //li[contains(text(),'acdc4ever (335)')]]
+12/10/2018 19:33:06 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='submit']]
+12/10/2018 19:33:29 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]

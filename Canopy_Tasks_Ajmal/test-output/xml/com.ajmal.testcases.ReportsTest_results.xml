@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Reports_Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="101.511">
+  <properties />
+  
+  
+            <testcase name="createReportTemplateTest" time="24.695" classname="com.ajmal.testcases.ReportsTest" />
+                <testcase name="deleteReportTemplateTest" time="18.526" classname="com.ajmal.testcases.ReportsTest" />
+                <testcase name="editReportTemplateTest" time="34.328" classname="com.ajmal.testcases.ReportsTest" />
+                <testcase name="copyReportTemplateTest" time="23.962" classname="com.ajmal.testcases.ReportsTest" />
+      
+</testsuite>

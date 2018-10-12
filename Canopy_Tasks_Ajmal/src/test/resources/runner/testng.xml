@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Canopy Assignment">
+
+	<listeners>
+		<listener class-name="com.ajmal.listeners.CustomListeners" />
+		<listener class-name="com.ajmal.errorcollectors.TestListenerAdapter" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Reports_Test">
+		<classes>
+			<class name="com.ajmal.testcases.ReportsTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Account_Holdings_Test">
+		<classes>
+			<class name="com.ajmal.testcases.AccountHoldingsTest" />
+		</classes>
+	</test> <!--  Test -->
+	
+</suite> <!-- Suite -->

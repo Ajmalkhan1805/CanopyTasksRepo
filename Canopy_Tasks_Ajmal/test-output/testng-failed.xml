@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Canopy Assignment]">
+  <listeners>
+    <listener class-name="com.ajmal.listeners.CustomListeners"/>
+    <listener class-name="com.ajmal.errorcollectors.TestListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Reports_Test(failed)">
+    <classes>
+      <class name="com.ajmal.testcases.ReportsTest">
+        <methods>
+          <include name="deleteReportTemplateTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createReportTemplateTest"/>
+          <include name="editReportTemplateTest"/>
+          <include name="copyReportTemplateTest"/>
+        </methods>
+      </class> <!-- com.ajmal.testcases.ReportsTest -->
+    </classes>
+  </test> <!-- Reports_Test(failed) -->
+  <test name="Account_Holdings_Test(failed)">
+    <classes>
+      <class name="com.ajmal.testcases.AccountHoldingsTest">
+        <methods>
+          <include name="calculateTotalNetworthTest"/>
+        </methods>
+      </class> <!-- com.ajmal.testcases.AccountHoldingsTest -->
+    </classes>
+  </test> <!-- Account_Holdings_Test(failed) -->
+</suite> <!-- Failed suite [Canopy Assignment] -->

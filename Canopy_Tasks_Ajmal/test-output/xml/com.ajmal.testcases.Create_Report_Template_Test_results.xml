@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Report Template Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="130.168">
+  <properties />
+  
+  
+            <testcase name="createReportTemplateTest" time="130.168" classname="com.ajmal.testcases.Create_Report_Template_Test" />
+      
+</testsuite>

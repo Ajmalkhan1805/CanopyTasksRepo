@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculate Total Networth"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="112.165">
+  <properties />
+  
+  
+            <testcase name="calculateTotalNetworthTest" time="112.165" classname="com.ajmal.testcases.CalculateTotalNetworthTest" />
+      
+</testsuite>

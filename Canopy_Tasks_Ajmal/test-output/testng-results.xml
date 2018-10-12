@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Canopy Assignment" duration-ms="149084" started-at="2018-10-12T14:01:01Z" finished-at="2018-10-12T14:03:30Z">
+    <groups>
+    </groups>
+    <test name="Reports_Test" duration-ms="112642" started-at="2018-10-12T14:01:01Z" finished-at="2018-10-12T14:02:54Z">
+      <class name="com.ajmal.testcases.ReportsTest">
+        <test-method status="PASS" signature="createReportTemplateTest()[pri:0, instance:com.ajmal.testcases.ReportsTest@7ef82753]" name="createReportTemplateTest" duration-ms="24695" started-at="2018-10-12T19:31:01Z" finished-at="2018-10-12T19:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportTemplateTest -->
+        <test-method status="PASS" signature="editReportTemplateTest()[pri:1, instance:com.ajmal.testcases.ReportsTest@7ef82753]" name="editReportTemplateTest" duration-ms="34328" started-at="2018-10-12T19:31:37Z" depends-on-methods="com.ajmal.testcases.ReportsTest.createReportTemplateTest" finished-at="2018-10-12T19:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editReportTemplateTest -->
+        <test-method status="PASS" signature="copyReportTemplateTest()[pri:2, instance:com.ajmal.testcases.ReportsTest@7ef82753]" name="copyReportTemplateTest" duration-ms="23962" started-at="2018-10-12T19:32:11Z" depends-on-methods="com.ajmal.testcases.ReportsTest.editReportTemplateTest" finished-at="2018-10-12T19:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyReportTemplateTest -->
+        <test-method status="PASS" signature="deleteReportTemplateTest()[pri:3, instance:com.ajmal.testcases.ReportsTest@7ef82753]" name="deleteReportTemplateTest" duration-ms="18526" started-at="2018-10-12T19:32:35Z" depends-on-methods="com.ajmal.testcases.ReportsTest.copyReportTemplateTest" finished-at="2018-10-12T19:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReportTemplateTest -->
+      </class> <!-- com.ajmal.testcases.ReportsTest -->
+    </test> <!-- Reports_Test -->
+    <test name="Account_Holdings_Test" duration-ms="35945" started-at="2018-10-12T14:02:54Z" finished-at="2018-10-12T14:03:30Z">
+      <class name="com.ajmal.testcases.AccountHoldingsTest">
+        <test-method status="PASS" signature="calculateTotalNetworthTest()[pri:0, instance:com.ajmal.testcases.AccountHoldingsTest@1349883]" name="calculateTotalNetworthTest" duration-ms="35841" started-at="2018-10-12T19:32:54Z" finished-at="2018-10-12T19:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateTotalNetworthTest -->
+      </class> <!-- com.ajmal.testcases.AccountHoldingsTest -->
+      <class name="com.ajmal.testcases.ReportsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ajmal.testcases.ReportsTest@7ef82753]" name="setUp" is-config="true" duration-ms="31891" started-at="2018-10-12T19:30:29Z" finished-at="2018-10-12T19:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ajmal.testcases.ReportsTest@7ef82753]" name="tearDown" is-config="true" duration-ms="996" started-at="2018-10-12T19:33:30Z" finished-at="2018-10-12T19:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ajmal.testcases.ReportsTest -->
+    </test> <!-- Account_Holdings_Test -->
+  </suite> <!-- Canopy Assignment -->
+</testng-results>

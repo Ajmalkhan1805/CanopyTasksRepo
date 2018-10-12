@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Copy Report Template Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.062">
+  <properties />
+  
+  
+            <testcase name="copyReportTemplateTest" time="84.062" classname="com.ajmal.testcases.CopyReportTemplateTest" />
+      
+</testsuite>
