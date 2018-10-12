@@ -34,6 +34,7 @@ import com.relevantcodes.extentreports.LogStatus;
  * 			#Email Monitoring
  * 			#Listeners
  * 			#Extent Reports
+ * 			#Browser initialization
  */
 public class Page {
 

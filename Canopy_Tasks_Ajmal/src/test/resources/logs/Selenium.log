@@ -1,67 +1,67 @@
-19:30:45,281 DEBUG devpinoyLogger:72 - Launching Chrome
-19:31:02,530 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
-19:31:02,691 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
-19:31:05,969 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
-19:31:06,429 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
-19:31:07,930 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section//reporting-manage-component/section/div/div[1]/div/a[1]]
-19:31:09,410 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //*[@id='reportName']] entered value as : Template64aaa2e1489c40b89cf04c77e20a5d45
-19:31:09,683 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[1]/div[1]/form[1]/div[2]/div[1]/div[5]/div[1]/span[1]/span[1]]
-19:31:10,968 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[@id='reportTypes-list']//input[@class='k-textbox']] entered value as : Style template
-19:31:13,500 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
-19:31:25,565 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template64aaa2e1489c40b89cf04c77e20a5d45
-19:31:25,836 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
-19:31:28,270 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-19:31:28,276 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-19:31:28,284 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-19:31:28,324 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-19:31:28,327 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-19:31:37,312 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
-19:31:37,453 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
-19:31:39,098 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
-19:31:39,508 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
-19:31:49,733 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[@class='form-horizontal']//div[6]//div[1]//span[1]//span[1]//span[2]]
-19:31:51,902 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //div[1]//div[2]//ul[1]//li[3][@data-offset-index='2'][contains(text(),'Ready To Assign')]]
-19:31:52,292 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
-19:32:10,832 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
-19:32:11,465 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-19:32:11,467 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-19:32:11,470 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-19:32:11,474 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-19:32:11,475 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-19:32:12,245 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
-19:32:12,440 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
-19:32:13,875 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
-19:32:14,258 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
-19:32:23,087 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //*[@id='reportName']] entered value as : Template39862e13a04d48939450b7c84bfefda1
-19:32:23,335 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
-19:32:34,973 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
-19:32:35,521 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-19:32:35,525 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-19:32:35,527 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-19:32:35,529 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-19:32:35,535 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-19:32:35,935 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
-19:32:36,062 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
-19:32:37,608 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'REPORTS')]]
-19:32:38,009 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
-19:32:51,064 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //a[@class='k-button k-grid-deleteReport grid-delete-button']//span[@class='k-icon k-i-delete']]
-19:32:52,176 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@data-bb-handler='confirm']]
-19:32:52,953 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template64aaa2e1489c40b89cf04c77e20a5d45
-19:32:53,465 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template39862e13a04d48939450b7c84bfefda1
-19:32:53,643 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
-19:32:54,143 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-19:32:54,151 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-19:32:54,153 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-19:32:54,155 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-19:32:54,155 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-19:32:54,861 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: username] entered value as : at_042
-19:32:54,968 DEBUG devpinoyLogger:104 - Typing in an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> name: password] entered value as : TechGeek$123
-19:32:56,385 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //a[@id='25']//span[contains(text(),'USER ACCOUNTS')]]
-19:33:06,033 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //li[contains(text(),'acdc4ever (335)')]]
-19:33:06,338 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> xpath: //button[@type='submit']]
-19:33:29,910 DEBUG devpinoyLogger:96 - Clicking on an Element : [[ChromeDriver: chrome on XP (4b64a72106745602a4e580ec74fe6b2d)] -> id: lnkName]
-19:33:30,560 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-19:33:30,566 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-19:33:30,567 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-19:33:30,569 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-19:33:30,571 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:03:53,691 DEBUG devpinoyLogger:73 - Launching Chrome
+00:03:57,535 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: username] entered value as : at_042
+00:03:57,702 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: password] entered value as : TechGeek$123
+00:03:59,779 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'REPORTS')]]
+00:04:00,254 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+00:04:01,415 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section//reporting-manage-component/section/div/div[1]/div/a[1]]
+00:04:02,808 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //*[@id='reportName']] entered value as : Template93ec99fbd02b4849ba4854e863d64156
+00:04:03,116 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //div[1]/div[1]/form[1]/div[2]/div[1]/div[5]/div[1]/span[1]/span[1]]
+00:04:04,444 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //div[@id='reportTypes-list']//input[@class='k-textbox']] entered value as : Style template
+00:04:06,988 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
+00:04:18,334 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template93ec99fbd02b4849ba4854e863d64156
+00:04:18,643 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> id: lnkName]
+00:04:19,231 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+00:04:19,233 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+00:04:19,235 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+00:04:19,237 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:04:19,240 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:04:19,756 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: username] entered value as : at_042
+00:04:19,918 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: password] entered value as : TechGeek$123
+00:04:20,972 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'REPORTS')]]
+00:04:21,441 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+00:04:30,654 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //div[@class='form-horizontal']//div[6]//div[1]//span[1]//span[1]//span[2]]
+00:04:32,843 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //div[1]//div[2]//ul[1]//li[3][@data-offset-index='2'][contains(text(),'Ready To Assign')]]
+00:04:33,273 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
+00:05:20,731 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> id: lnkName]
+00:05:21,231 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+00:05:21,231 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+00:05:21,232 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+00:05:21,232 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:05:21,233 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:05:21,570 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: username] entered value as : at_042
+00:05:21,738 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: password] entered value as : TechGeek$123
+00:05:23,390 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'REPORTS')]]
+00:05:23,791 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+00:05:33,069 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //*[@id='reportName']] entered value as : Template8f0140fee1fa4e129f045e09a50a8a11
+00:05:33,324 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //button[@type='button'][contains(text(),'Save')]]
+00:05:44,138 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> id: lnkName]
+00:05:44,608 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+00:05:44,609 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+00:05:44,610 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+00:05:44,610 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:05:44,610 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:05:44,892 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: username] entered value as : at_042
+00:05:45,026 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: password] entered value as : TechGeek$123
+00:05:46,604 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'REPORTS')]]
+00:05:46,996 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //span[contains(text(),'Reports Templates Design')]]
+00:05:59,620 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //a[@class='k-button k-grid-deleteReport grid-delete-button']//span[@class='k-icon k-i-delete']]
+00:06:00,569 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //button[@data-bb-handler='confirm']]
+00:06:01,616 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template93ec99fbd02b4849ba4854e863d64156
+00:06:02,277 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: /html/body/div[1]/div[1]/section/div/div[2]/div/section/reporting-manage-component/section/div/div[4]/div/table/thead[1]/tr[2]/th[5]/span/span/span/input] entered value as : Template8f0140fee1fa4e129f045e09a50a8a11
+00:06:02,513 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> id: lnkName]
+00:06:03,090 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+00:06:03,090 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+00:06:03,091 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+00:06:03,091 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:06:03,091 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:06:03,853 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: username] entered value as : at_042
+00:06:03,987 DEBUG devpinoyLogger:105 - Typing in an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> name: password] entered value as : TechGeek$123
+00:06:05,187 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //a[@id='25']//span[contains(text(),'USER ACCOUNTS')]]
+00:06:12,357 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //li[contains(text(),'acdc4ever (335)')]]
+00:06:12,655 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> xpath: //button[@type='submit']]
+00:06:35,360 DEBUG devpinoyLogger:97 - Clicking on an Element : [[ChromeDriver: chrome on XP (7737eb1ab8d56a3c38d2b429b4a612af)] -> id: lnkName]
+00:06:36,074 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+00:06:36,075 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+00:06:36,075 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+00:06:36,076 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:06:36,076 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ajimulkhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

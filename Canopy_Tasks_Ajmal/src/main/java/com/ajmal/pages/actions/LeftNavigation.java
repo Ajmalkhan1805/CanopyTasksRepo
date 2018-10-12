@@ -5,6 +5,7 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import com.ajmal.base.Page;
 import com.ajmal.pages.locators.LeftNavigationLocators;
 import com.ajmal.utilities.Utilities;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class LeftNavigation extends Page {
 
@@ -20,6 +21,8 @@ public class LeftNavigation extends Page {
 	
 
 	public void gotoReportsTemplateDesign(){
+		test.log(LogStatus.INFO, "From the left navigation bar, go to menu 'Reports'.", "");
+		test.log(LogStatus.INFO, "Under 'Reports' menu, go to sub-menu 'Reports Templates Design'.", "");
 		Utilities.waitForJSAndJQToLoad();
 		Wait(leftNavigation.reports, 5);
 		Page.click(leftNavigation.reports);

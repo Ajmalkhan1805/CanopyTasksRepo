@@ -1,14 +1,17 @@
 package com.ajmal.utilities;
 
-import com.ajmal.base.Constants;
 
+/**
+ * @author Ajmal
+ *
+ * @Desc Email Configurations
+ */
 public class TestConfig{
 
 
-	
 	public static String server="smtp.gmail.com";
 	public static String from = "canopytestautomation@gmail.com";
-	public static String password = Constants.password;
+	public static String password = "TechGeek$123";
 	public static String[] to ={"ajimulkhan@srinsofttech.com"}; //Add many rcpnts by adding comma 
 	public static String subject = "Extent Project Report";
 	
@@ -30,12 +33,6 @@ public class TestConfig{
 	public static String mysqluserName = "root";
 	public static String mysqlpassword = "selenium";
 	public static String mysqlurl = "jdbc:mysql://localhost:3306/acs";
-	
-	
-	
-	
-	
-	
 	
 	
 	

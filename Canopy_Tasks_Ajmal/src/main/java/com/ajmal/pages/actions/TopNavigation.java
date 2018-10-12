@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import com.ajmal.base.Page;
 import com.ajmal.pages.locators.TopNavigationLocators;
 import com.ajmal.utilities.Utilities;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class TopNavigation extends Page{
 	
@@ -30,7 +31,7 @@ public class TopNavigation extends Page{
 	
 
 	public void gotoLogOut(){
-		
+		test.log(LogStatus.INFO, "Logout from the application.", "");
 		Page.click(topNavigation.account);
 		Utilities.waitForJSAndJQToLoad();
 		wait.until(ExpectedConditions.visibilityOf(topNavigation.LogoutBtn));
