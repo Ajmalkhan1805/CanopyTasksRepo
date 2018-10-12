@@ -1,0 +1,33 @@
+******************** Required Tools ********************
+
+** JAVA Version 1.8
+
+** Maven(apache-maven-3.5.2)
+
+** Eclipse IDE
+
+
+******************** Configuration & Execution Steps ********************
+
+** Install Java and set environmanet path variable and make sure Java is installed properly
+
+** Install Eclipse (neon or Photon)
+
+** Download apache maven and set nvironmanet variable and make sure maven is configured properly
+
+** Integrate Eclipse IDE with Maven (M2e Integration)
+
+** Clone 'Canopy Task' project from GitHub URI : https://github.com/Ajmalkhan1805/CanopyTasksRepo.git
+
+** Rightclick on project --> Run As --> Maven Test
+ 
+--> If Java Version is not compatible, then there might be copatibility issue in Maven Test execution. Because, 'String builder' may expect us to use JSE 1.8 and above but this issue won't affect the tests. Don't worry, in that situation you can still execute tests using 'TestNG.xml' file from below path. 
+** Run project as a TestNG Suite : In Project, Go to 'src (folder)' --> 'test (folder)' --> 'resources (folder)' --> 'runner (folder)' --> testng.xml (Execute this File)
+
+
+Any help??
+
+Please reach me at Ajimalkhan.m@gmail.com (OR) +919944521872
+
+
+******************** Thanks ********************
