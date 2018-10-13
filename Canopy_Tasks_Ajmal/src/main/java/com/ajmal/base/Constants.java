@@ -1,7 +1,13 @@
 package com.ajmal.base;
 
 /**
- * @author ajimulkhan
+ * @author 			Ajmal
+ * 	
+ * @Purpose: 		Project specific constants are specified in this class.
+ *  
+ * @Date:			10/12/18
+ * 
+ * @ModificaitonHistory: 
  *
  */
 

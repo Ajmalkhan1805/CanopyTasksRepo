@@ -10,6 +10,17 @@ import com.ajmal.pages.locators.TopNavigationLocators;
 import com.ajmal.utilities.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
 
+/**
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	This class holds functions Top Navigation which is common across all the modules
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
+ */
+
 public class TopNavigation extends Page{
 	
 	public TopNavigationLocators topNavigation;

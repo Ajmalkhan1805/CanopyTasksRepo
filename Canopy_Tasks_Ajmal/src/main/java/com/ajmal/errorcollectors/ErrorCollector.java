@@ -12,11 +12,18 @@ import org.testng.Reporter;
 import com.ajmal.base.Page;
 import com.relevantcodes.extentreports.LogStatus;
 
-
 /**
- * @author 	AJMAL
- * @Desc 	Various Assertions and common validation methods are defined here.
+ * @author 			Ajmal
+ * 	
+ * @Purpose: 		Functions to validate results and capture errors.
+ * 					Various Assertions and common validation methods are defined here.
+ *  
+ * @Date:			10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
  */
+
 public class ErrorCollector extends Page {
 	
 	private static Map<ITestResult, List<Throwable>> verificationFailuresMap = new HashMap<ITestResult, List<Throwable>>();

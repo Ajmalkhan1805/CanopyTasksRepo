@@ -7,6 +7,18 @@ import com.ajmal.pages.locators.LeftNavigationLocators;
 import com.ajmal.utilities.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
 
+/**
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	This class holds functions Left Navigation which is common across all the modules
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
+ */
+
+
 public class LeftNavigation extends Page {
 
 	public LeftNavigationLocators leftNavigation;

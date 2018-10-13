@@ -4,8 +4,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 /**
- * @author ajimulkhan
- * @Desc Log in Page locators
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define locators of Log In Page
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
  */
 public class SigninPageLocators {
 	

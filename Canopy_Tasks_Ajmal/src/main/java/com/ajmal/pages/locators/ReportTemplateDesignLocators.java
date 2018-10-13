@@ -5,10 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 /**
- *@author ajimulkhan
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define locators of Report Template design Page
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
  *
- *@Desc --> Here you will see the locators of Report Templates Design Page
  */
+
 public class ReportTemplateDesignLocators {
 	
 		//Create Button
@@ -106,6 +112,18 @@ public class ReportTemplateDesignLocators {
 		@FindBy(xpath="//div[@id='reportTypes-list']//input[@class='k-textbox']")
 		public WebElement filterInput;
 
+
+		//Input
+		@FindBy(xpath="//li[text()='BaseTemplateDL' and @class='k-item']")
+		public WebElement baseTemplateDL;
+		
+		//Input
+		@FindBy(xpath="//span[contains(text(),'Choose style template...')]")
+		public WebElement chooseStyleTemplateDropdown;
+
+		@FindBy(xpath="//div[@id='baseReports-list']//span[1]//input[1][ not (contains(@aria-busy, 'false'))]")
+		public WebElement filterInputStyleTemplate;
+		//div[@id='baseReports-list']//input[@class='k-textbox']
 		
 	//******************************Edit Popup***********************************************
 		//Name

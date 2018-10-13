@@ -14,9 +14,16 @@ import com.ajmal.utilities.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
 
 /**
- * @author ajimulkhan
- * @Desc   Sign In & Validation
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To do login and verify login
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
  */
+
 public class SigninPage extends Page {
 	
 	public SigninPageLocators signinPage;

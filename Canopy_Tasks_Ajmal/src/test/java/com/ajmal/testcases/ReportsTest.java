@@ -13,9 +13,13 @@ import com.ajmal.utilities.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
 
 /**
- * @author 	ajimulkhan
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To verify Add, Edit, Copy and delete features of Report Template Design module
+ *  
+ * @Date:		10/12/18
  * 
- * @Desc 	This test verifies Add, Edit, Copy and Deletion features in Report Template Design Module
+ * @ModificaitonHistory: 
  */
 
 public class ReportsTest extends Page {
@@ -35,11 +39,13 @@ public class ReportsTest extends Page {
 		ReportTemplateDesignPage designPage = new ReportTemplateDesignPage();
 		TopNavigation  logout = new TopNavigation(driver);
 		
+		// Test Starts Here
 		signin.doLogin();
 		reports.gotoReportsTemplateDesign();
 		designPage.goToCreateTeplate();
 		designPage.enterTemplateName(TemplateName);
 		designPage.selectStyleTemplate();
+		designPage.selectBaseTemplateDL();
 		designPage.saveReportTemplate();
 		designPage.searchTemplate(TemplateName);
 		actualStatus = designPage.resultantTemplateName();
@@ -60,6 +66,7 @@ public class ReportsTest extends Page {
 		ReportTemplateDesignPage designPage = new ReportTemplateDesignPage();
 		TopNavigation  logout = new TopNavigation(driver);
 		
+		// Test Starts Here
 		signin.doLogin();
 		reports.gotoReportsTemplateDesign();
 		designPage.goToEditTemplate(TemplateName);
@@ -87,7 +94,8 @@ public class ReportsTest extends Page {
 		LeftNavigation  reports = new LeftNavigation();
 		ReportTemplateDesignPage designPage = new ReportTemplateDesignPage();
 		TopNavigation  logout = new TopNavigation(driver);
-
+		
+		// Test Starts Here
 		signin.doLogin();
 		reports.gotoReportsTemplateDesign();
 		designPage.goToCopyTemplate(TemplateName);
@@ -115,7 +123,8 @@ public class ReportsTest extends Page {
 		LeftNavigation  reports = new LeftNavigation();
 		ReportTemplateDesignPage designPage = new ReportTemplateDesignPage();
 		TopNavigation  logout = new TopNavigation(driver);
-
+		
+		// Test Starts Here
 		signin.doLogin();
 		reports.gotoReportsTemplateDesign();
 		designPage.SelectTemplate(newTemplateName);

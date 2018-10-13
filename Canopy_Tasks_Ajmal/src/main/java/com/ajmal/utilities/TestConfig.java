@@ -1,11 +1,15 @@
 package com.ajmal.utilities;
 
-
 /**
- * @author Ajmal
- *
- * @Desc Email Configurations
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define configuration specific data
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
  */
+
 public class TestConfig{
 
 

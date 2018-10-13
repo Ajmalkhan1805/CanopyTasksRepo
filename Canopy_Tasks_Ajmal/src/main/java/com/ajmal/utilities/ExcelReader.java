@@ -20,7 +20,16 @@ import org.apache.poi.xssf.usermodel.XSSFHyperlink;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+/**
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define write and read functions of excel object
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
+ */
 
 public class ExcelReader {
 	

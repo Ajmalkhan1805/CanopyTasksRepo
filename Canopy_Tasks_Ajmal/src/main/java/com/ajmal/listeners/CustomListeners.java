@@ -1,6 +1,7 @@
 package com.ajmal.listeners;
 
 import java.io.IOException;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -19,6 +20,17 @@ import com.ajmal.utilities.MonitoringMail;
 import com.ajmal.utilities.TestConfig;
 import com.ajmal.utilities.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
+
+/**
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define custom listeners
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
+ */
 
 public class CustomListeners extends Page implements ITestListener,ISuiteListener {
 

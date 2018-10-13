@@ -9,11 +9,16 @@ import org.testng.Reporter;
 import org.testng.internal.Utils;
 
 /**
- * @author 	Ajmal
+ * @author 			Ajmal
+ * 	
+ * @Purpose: 		To define Listeners
+ *  
+ * @Date:			10/12/18
  * 
- * @Desc: 	Test Listeners are defined here.
+ * @ModificaitonHistory: 
  *
  */
+
 public class TestListenerAdapter implements IInvokedMethodListener {
 
 	public void afterInvocation(IInvokedMethod method, ITestResult result) {

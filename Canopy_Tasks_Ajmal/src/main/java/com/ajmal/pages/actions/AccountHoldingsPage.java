@@ -13,6 +13,17 @@ import com.ajmal.pages.locators.AccountHoldingsPageLocators;
 import com.ajmal.utilities.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
 
+/**
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	This class holds functions of Account Holdings Module
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ *
+ */
+
 public class AccountHoldingsPage extends Page {
 	
 public AccountHoldingsPageLocators accHoldings;
@@ -29,7 +40,7 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	public void Select_ACDC4EVER_Account() throws Exception{
 		Utilities.HoverAndEnterValues(accHoldings.accountField, "acdc4ever (335)");
-		Thread.sleep(1000);
+		Utilities.waitFor(1000);
 		click(accHoldings.acdc4everAccount);
 	}
 	
@@ -43,7 +54,7 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	public String GetNetworthLegend(){
 		Utilities.waitForJSAndJQToLoad();
-		try {Thread.sleep(5000);} catch (InterruptedException e1) {e1.printStackTrace();}
+		Utilities.waitFor(5000);
 		if(accHoldings.netWorthLegend.isDisplayed()){
 			test.log(LogStatus.PASS, "Validation successfull: Content is displayed  --> "+"\n"+" :"+accHoldings.netWorthLegend.getText());
 			return accHoldings.netWorthLegend.getText();
@@ -55,7 +66,6 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	public void VerifyNetworthisDisplayed(){
 		Utilities.waitForJSAndJQToLoad();
-		//try {Thread.sleep(5000);} catch (InterruptedException e1) {e1.printStackTrace();}
 		if(accHoldings.netWorthLegend.isDisplayed()){
 			test.log(LogStatus.PASS, "Validation successfull: Networth is displayed  --> : "+accHoldings.netWorthLegend.getText());
 		}else{ 
@@ -114,11 +124,8 @@ public AccountHoldingsPageLocators accHoldings;
 				
 			}else{
 				refr = 0;
-				try {
-					Thread.sleep(500);i++;
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+				Utilities.waitFor(500);i++;
+				
 			}
 		}
 		test.log(LogStatus.INFO,"Accounts loading time"+(i*2),"");
@@ -136,12 +143,8 @@ public AccountHoldingsPageLocators accHoldings;
 			refr = 1;	
 			}else{
 				refr = 0;
-				try {
-					Thread.sleep(500);
-				} catch (InterruptedException e) {
-	
-					e.printStackTrace();
-				}i++;
+				
+					Utilities.waitFor(1000);i++;
 				
 			}
 		
@@ -154,7 +157,7 @@ public AccountHoldingsPageLocators accHoldings;
 	public String GetTotalValueFromHighlightedSections(){
 		
 		List<String> totalVal = new ArrayList<String>();
-		try {Thread.sleep(5000);} catch (InterruptedException e1) {e1.printStackTrace();}
+		Utilities.waitFor(5000);
 		StringBuilder bfr1 = new StringBuilder();
 		List<WebElement> ac = driver.findElements(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/section[1]/holdings-per-user-component[1]/section[1]/div[2]/ul[@data-role='panelbar']"));
 		for  (int i = 0; i < ac.size(); i++) {
@@ -162,11 +165,7 @@ public AccountHoldingsPageLocators accHoldings;
 	    	  String clasVal =  driver.findElement(By.xpath("//section[1]/holdings-per-user-component[1]/section[1]/div[2]/ul["+l+"]/li[1]")).getAttribute("class");
 	    	  if(clasVal.equalsIgnoreCase("k-item k-first k-last highlight")){
 	    		  driver.findElement(By.xpath("//section[1]/holdings-per-user-component[1]/section[1]/div[2]/ul["+l+"]/li[1]/span[1]")).click();
-	    		  try {
-					Thread.sleep(1500);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+	    		  Utilities.waitFor(1000);
 	    		  WebElement elm1 =  driver.findElement(By.xpath("//section[1]/holdings-per-user-component[1]/section[1]/div[2]/ul["+l+"]/li[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[6]/div[1]/table[1]/tbody[1]/tr[1]/td[contains(text(),'Total: ')]"));
 	    		  totalVal.add(elm1.getText()); 
 	    	  }

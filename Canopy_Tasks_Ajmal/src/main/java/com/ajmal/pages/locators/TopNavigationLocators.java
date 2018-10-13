@@ -4,8 +4,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 /**
- * @author 	Ajmal
- * @Desc 	Topnavigation is constant across all the pages of application. Hence, defined all here in one place.
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define locators of Top navigation objects
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
  *
  */
 public class TopNavigationLocators {

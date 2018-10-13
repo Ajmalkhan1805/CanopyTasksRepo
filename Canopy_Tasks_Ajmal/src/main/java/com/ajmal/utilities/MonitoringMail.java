@@ -17,11 +17,17 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 
-
 /**
- * @author ajimulkhan
- *
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To configure eMail
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
  */
+
+
 public class MonitoringMail
 {
 	//public static void sendMail(String mailServer, String from,String username, String password,String port, String[] to, String subject, String messageBody, String attachmentPath, String attachmentName) throws MessagingException, AddressException

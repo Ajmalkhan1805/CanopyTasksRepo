@@ -6,8 +6,13 @@ import org.openqa.selenium.support.FindBy;
 
 
 /**
- * @author 	Ajmal
- * @Desc 	LeftSideNavigaiton is constant across all the pages of application. Hence, defined all here in one place.
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	To define locators of Left Navigation objects
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
  *
  */
 public class LeftNavigationLocators {

@@ -9,10 +9,13 @@ import com.ajmal.pages.actions.TopNavigation;
 import com.relevantcodes.extentreports.LogStatus;
 
 /**
- * @author ajimulkhan
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	Test to validate Networth against sum of contract type headers
+ *  
+ * @Date:		10/12/18
  * 
- * @Desc This test validates Networth value against sum of individual totals from highlighted sections
- * 
+ * @ModificaitonHistory: 
  */
 
 public class AccountHoldingsTest extends Page {

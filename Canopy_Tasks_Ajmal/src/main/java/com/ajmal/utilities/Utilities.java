@@ -35,6 +35,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 
 import com.ajmal.base.Page;
+/**
+ * @author 		Ajmal
+ * 	
+ * @Purpose: 	This class holds functions of utilities
+ *  
+ * @Date:		10/12/18
+ * 
+ * @ModificaitonHistory: 
+ */
 
 public class Utilities extends Page {
 
@@ -304,6 +313,14 @@ public class Utilities extends Page {
 	    };
 
 	  return wait.until(jQueryLoad) && wait.until(jsLoad);
+	}
+	
+	public static void waitFor(long millis){
+		try {
+			Thread.sleep(millis);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 	
 }
