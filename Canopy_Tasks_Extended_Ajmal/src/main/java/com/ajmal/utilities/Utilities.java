@@ -38,6 +38,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 
 import com.ajmal.base.Page;
+import com.relevantcodes.extentreports.LogStatus;
 /**
  * @author 		Ajmal
  * 	
@@ -183,7 +184,11 @@ public class Utilities extends Page {
 	
 	}
 	
-
+	public static void log(String details){
+		
+		test.log(LogStatus.INFO, details);
+	}
+	
 	public static void UpdatePorperties(String key, String data) {
 		
 		File file = new File(System.getProperty("user.dir") + "//src//test//resources//properties//CanopyData.properties");
