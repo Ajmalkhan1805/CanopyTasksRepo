@@ -23,17 +23,17 @@ public class AccountHoldingsTest extends Page {
 	@Test
 	public void calculateTotalNetworthTest() throws Exception {
 		
-		test.log(LogStatus.INFO, "Step 1: Login to the application url using the mentioned credentials");
+
 		SigninPage signin = new SigninPage();
 		signin.doLogin();
 		
-		test.log(LogStatus.INFO, "Step 2: From the left navigation bar, go to menu 'User Accounts'.");
+
 		LeftNavigation  accounts = new LeftNavigation();
 		
-		test.log(LogStatus.INFO, "Step 3: Under 'User Accounts' menu, go to sub-menu 'Account Holdings'.");
+
 		accounts.gotoAccountHoldings();
 		
-		test.log(LogStatus.INFO, "Step 4: Select the account as 'acdc4ever'. Click on Apply Filters.");
+	
 		AccountHoldingsPage AccountHoldingsPage = new AccountHoldingsPage();
 		AccountHoldingsPage.Select_ACDC4EVER_Account();
 		AccountHoldingsPage.ApplyFilter();

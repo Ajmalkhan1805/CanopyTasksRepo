@@ -42,13 +42,13 @@ public ReportTemplateDesignLocators design;
 	
 	
 	public void goToCreateTeplate(){
-		test.log(LogStatus.INFO, "Click on 'Create' button", "");
+		test.log(LogStatus.INFO, "Click on 'Create' button");
 		click(design.createButton);
 		
 	}
 	
 	public void Confirm(){
-		test.log(LogStatus.INFO, "Click 'Ok' to confirm.", "");
+		test.log(LogStatus.INFO, "Click 'Ok' to confirm.");
 		Wait(design.okButton,5);
 		click(design.okButton);
 		wait.until(ExpectedConditions.elementToBeClickable(design.refreshLink));
@@ -69,7 +69,7 @@ public ReportTemplateDesignLocators design;
 	}
 
 	public void searchTemplate(String TemplateName){
-		test.log(LogStatus.INFO, "In the table, in the Name column, enter the unique report template name that you had previously given.", "");
+		test.log(LogStatus.INFO, "In the table, in the Name column, enter the unique report template name that you had previously given.");
 		type(design.nameOfTemplate,TemplateName );
 		design.nameOfTemplate.sendKeys(Keys.ENTER);
 		
@@ -77,9 +77,9 @@ public ReportTemplateDesignLocators design;
 	
 	
 	public void DeleteSelectedTemplates(){
-		test.log(LogStatus.INFO, "Click on the delete button", "");
+		test.log(LogStatus.INFO, "Click on the delete button");
 		click(design.deleteButton);
-		test.log(LogStatus.INFO, "Click on the delete button", "");
+		test.log(LogStatus.INFO, "Click on the delete button");
 	}
 	
 	public void enterTemplateName(String TemplateName){
@@ -91,7 +91,7 @@ public ReportTemplateDesignLocators design;
 	
 	public void selectStyleTemplate(){
 		
-		test.log(LogStatus.INFO, "On the pop-up, enter any unique Name, choose Style template ", "");
+		test.log(LogStatus.INFO, "On the pop-up, enter any unique Name, choose Style template ");
 		click(design.typeOfTemplate);
 		 Utilities.waitFor(1000);
 		//click(design.styleTemplate); --> It works but takes time, so replacing this with below code
@@ -102,15 +102,15 @@ public ReportTemplateDesignLocators design;
 	
 	
 	public void selectBaseTemplateDL(){
-		test.log(LogStatus.INFO, "Select Base Template DL", "");
+		test.log(LogStatus.INFO, "Select Base Template DL");
 		click(design.chooseStyleTemplateDropdown);	
 		Utilities.waitFor(1500);
 		if(Utilities.verifyElementPresent(design.baseTemplateDL)){
 		click(design.baseTemplateDL);
 		Utilities.waitFor(1000);
-		test.log(LogStatus.INFO, "Base Template DL found in list and selected", "");
+		test.log(LogStatus.INFO, "Base Template DL found in list and selected");
 		}else{
-		test.log(LogStatus.INFO, "Base Template DL found in list and selected", "");
+		test.log(LogStatus.INFO, "Base Template DL found in list and selected");
 		log.debug("Base Template DL not found in the list");
 		}
 		Utilities.waitForJSAndJQToLoad();
@@ -118,7 +118,7 @@ public ReportTemplateDesignLocators design;
 	}
 	
 	public void saveReportTemplate(){
-		test.log(LogStatus.INFO, "Save template", "");
+		test.log(LogStatus.INFO, "Save template");
 		wait.until(ExpectedConditions.elementToBeClickable(design.saveButton));
 		click(design.saveButton);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//h3[@data-bind='text: header']")));
@@ -137,7 +137,7 @@ public ReportTemplateDesignLocators design;
 	
 	
 	public void selectReadyToAssignOption(){
-		test.log(LogStatus.INFO, "On the pop-up, edit the status to 'Ready to Assign' and click on 'Save'", "");
+		test.log(LogStatus.INFO, "On the pop-up, edit the status to 'Ready to Assign' and click on 'Save'");
 		wait.until(ExpectedConditions.visibilityOf(design.statusSelectionArrow));
 		click(design.statusSelectionArrow);
 		Utilities.waitFor(2000);
@@ -178,7 +178,7 @@ public ReportTemplateDesignLocators design;
 	
 	//Edit Template
 	public void goToEditTemplate(String TempName){
-		test.log(LogStatus.INFO, "Click on the edit template icon", "");
+		test.log(LogStatus.INFO, "Click on the edit template icon");
 		wait.until(ExpectedConditions.visibilityOf(design.templatesGrid));
 		List<WebElement> rows_table = design.templatesGrid.findElements(By.tagName("tr"));
 	    
@@ -210,7 +210,7 @@ public ReportTemplateDesignLocators design;
 	
 	//Copy Template
 	public void goToCopyTemplate(String TempName){
-		test.log(LogStatus.INFO, "Click on the copy template icon", "");
+		test.log(LogStatus.INFO, "Click on the copy template icon");
 		wait.until(ExpectedConditions.visibilityOf(design.templatesGrid));
 		List<WebElement> rows_table = design.templatesGrid.findElements(By.tagName("tr"));
 	    
@@ -284,7 +284,7 @@ public ReportTemplateDesignLocators design;
       			  int rowVal = row+1;
       			  driver.findElement(By.xpath("//tbody[@role='rowgroup']//tr["+rowVal+"]//input[@type='checkbox']")).click();
       			log.debug("Selected template at row -->>"+rowVal);
-      			test.log(LogStatus.INFO, "Selected template at row -->>"+rowVal, "");
+      			test.log(LogStatus.INFO, "Selected template at row -->>"+rowVal);
       			  break;
 					}
 	      	}
@@ -296,11 +296,11 @@ public ReportTemplateDesignLocators design;
 		searchTemplate(TemplateName);	
 		if (design.noRecordsAvailable.isDisplayed()){
 			log.debug("No records available");
-  			test.log(LogStatus.INFO, "No records available", "");
+  			test.log(LogStatus.INFO, "No records available");
     		return "No records available";
 		}else{
 			log.debug("Records found");
-  			test.log(LogStatus.INFO, "Records found", "");
+  			test.log(LogStatus.INFO, "Records found");
 			return "Records found";
 		}
 		

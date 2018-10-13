@@ -39,6 +39,7 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	
 	public void Select_ACDC4EVER_Account() throws Exception{
+		test.log(LogStatus.INFO, "Select the account as 'acdc4ever'");
 		Utilities.HoverAndEnterValues(accHoldings.accountField, "acdc4ever (335)");
 		Utilities.waitFor(1000);
 		click(accHoldings.acdc4everAccount);
@@ -47,7 +48,7 @@ public AccountHoldingsPageLocators accHoldings;
 
 
 	public void ApplyFilter(){
-		
+		test.log(LogStatus.INFO, "Click on Apply Filter");
 		click(accHoldings.applyFiltersButton);
 	}
 	
@@ -76,6 +77,8 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	public void VerifyCurrentValueUSDisDisplayed(){
 		Utilities.waitForJSAndJQToLoad();
+		test.log(LogStatus.INFO, "Validate that total networth 'Current Value USD' from the summary div 'Networth as of date' is shown on the page.");
+		Utilities.waitFor(3000);
 		if(accHoldings.currentValueUSD.isDisplayed()){
 			test.log(LogStatus.PASS, "Validation successfull: Current Value USD is displayed  --> :"+accHoldings.currentValueUSD.getText());
 		}else{ 
@@ -86,6 +89,8 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	public String GetCurrentValueUSD(){
 		Utilities.waitForJSAndJQToLoad();
+		test.log(LogStatus.INFO, "Validate that total networth 'Current Value USD' from the summary div 'Networth as of date' is shown on the page.");
+		Utilities.waitFor(1000);
 		Wait(accHoldings.currentValueUSD,10);
 		if(accHoldings.currentValueUSD.isDisplayed()){
 			test.log(LogStatus.PASS, "Validation successfull: Content is displayed  --> "+"\n"+" :"+accHoldings.currentValueUSD.getText());
@@ -184,7 +189,6 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	
 	public void ValidateSumValueAgainstCurrentValueUSD(String currentValueUSD, String SumOfSections){
-	
 		String formatVal = Utilities.numberExtractor(currentValueUSD);
 		if(currentValueUSD.equalsIgnoreCase(SumOfSections)){
 			test.log(LogStatus.PASS, "Validation successfull: Expected data matches Actual data "+"\n"+"Expected :"+formatVal+"\n"+"Actual :"+SumOfSections+"");
@@ -193,7 +197,6 @@ public AccountHoldingsPageLocators accHoldings;
 		}
 				
 	}
-	
 	
 	public void VerifyContentDisplay(WebElement element){
 		Utilities.waitForJSAndJQToLoad();

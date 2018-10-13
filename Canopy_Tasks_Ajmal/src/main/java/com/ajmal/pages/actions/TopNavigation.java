@@ -35,15 +35,14 @@ public class TopNavigation extends Page{
 	}
 
 	public void gotoSignIn(){
-		
-		Page.click(topNavigation.account);
-		Page.click(topNavigation.LogoutBtn);
+		click(topNavigation.account);
+		click(topNavigation.LogoutBtn);
 	}
 	
 
 	public void gotoLogOut(){
-		test.log(LogStatus.INFO, "Logout from the application.", "");
-		Page.click(topNavigation.account);
+		test.log(LogStatus.INFO, "Logout from the application.");
+		click(topNavigation.account);
 		Utilities.waitForJSAndJQToLoad();
 		wait.until(ExpectedConditions.visibilityOf(topNavigation.LogoutBtn));
 		//Page.click(topNavigation.LogoutBtn);

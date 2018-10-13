@@ -43,7 +43,7 @@ public class SigninPage extends Page {
 	
 	
 	public void doLogin(){
-		test.log(LogStatus.INFO, "Login to the application url using the mentioned credentials", "");
+		test.log(LogStatus.INFO, "Login to the application url using the mentioned credentials");
 		Utilities.waitForJSAndJQToLoad();
 		type(signinPage.username,Constants.userName);
 		type(signinPage.password,Constants.password);

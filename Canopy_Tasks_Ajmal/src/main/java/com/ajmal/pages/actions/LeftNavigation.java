@@ -33,8 +33,8 @@ public class LeftNavigation extends Page {
 	
 
 	public void gotoReportsTemplateDesign(){
-		test.log(LogStatus.INFO, "From the left navigation bar, go to menu 'Reports'.", "");
-		test.log(LogStatus.INFO, "Under 'Reports' menu, go to sub-menu 'Reports Templates Design'.", "");
+		test.log(LogStatus.INFO, "From the left navigation bar, go to menu 'Reports'.");
+		test.log(LogStatus.INFO, "Under 'Reports' menu, go to sub-menu 'Reports Templates Design'.");
 		Utilities.waitForJSAndJQToLoad();
 		Wait(leftNavigation.reports, 5);
 		Page.click(leftNavigation.reports);
@@ -44,7 +44,9 @@ public class LeftNavigation extends Page {
 	
 	public void gotoAccountHoldings(){
 		Utilities.waitForJSAndJQToLoad();
+		test.log(LogStatus.INFO, "From the left navigation bar, go to menu 'User Accounts'.");
 		Page.click(leftNavigation.userAccounts);
+		test.log(LogStatus.INFO, "Under 'Reports' menu, go to sub-menu 'Account Holdings'.");
 		Utilities.HoverAndClick(leftNavigation.accountHoldings);
 		//Page.click(leftNavigation.accountHoldings);
 	}
