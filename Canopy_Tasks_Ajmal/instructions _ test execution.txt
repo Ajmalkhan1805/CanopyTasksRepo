@@ -6,6 +6,8 @@
 
 ** Eclipse IDE
 
+** Git Integration
+
 
 ******************** Configuration & Execution Steps ********************
 
@@ -17,6 +19,8 @@
 
 ** Integrate Eclipse IDE with Maven (M2e Integration)
 
+** Integrate Eclipse IDE with Maven (EGit) --> If you want to manually download project(Zip) from Github, then you may not require this integration
+
 ** Clone 'Canopy Task' project from GitHub URI : https://github.com/Ajmalkhan1805/CanopyTasksRepo.git
 
 ** Rightclick on project --> Run As --> Maven Test
@@ -24,6 +28,7 @@
 --> If Java Version is not compatible, then there might be copatibility issue in Maven Test execution. Because, 'String builder' may expect us to use JSE 1.8 and above but this issue won't affect the tests. Don't worry, in that situation you can still execute tests using 'TestNG.xml' file from below path. 
 ** Run project as a TestNG Suite : In Project, Go to 'src (folder)' --> 'test (folder)' --> 'resources (folder)' --> 'runner (folder)' --> testng.xml (Execute this File)
 
+--> If you want to resolve mvn error, then got to Eclipse Preferences --> Java --> Installed JRE's --> select JDK 1.8 --> Apply
 
 Any help??
 
