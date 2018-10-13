@@ -60,7 +60,6 @@ public class ReportsTest extends Page {
 	public void editReportTemplateTest() throws Exception {
 		
 		String TemplateName = Utilities.CanopyDataReader("TemplateName");
-		String actualStatus = "";
 		SigninPage signin = new SigninPage();
 		LeftNavigation  reports = new LeftNavigation();
 		ReportTemplateDesignPage designPage = new ReportTemplateDesignPage();
@@ -72,12 +71,7 @@ public class ReportsTest extends Page {
 		designPage.goToEditTemplate(TemplateName);
 		designPage.selectReadyToAssignOption();
 		designPage.saveReportTemplate();
-		
-		actualStatus = designPage.checkTemplateStatus(TemplateName);
-		test.log(LogStatus.INFO, "Validate that the Status of template in the table changes to 'Ready to Assign'", "");
-		ErrorCollector.validateResults(actualStatus, "Ready To Assign");
-		test.log(LogStatus.INFO, "Expected status: Ready To Assign", "");
-		test.log(LogStatus.INFO, "Actual Status  : "+actualStatus+"", "");
+		designPage.VerifyTemplateStatus(TemplateName);
 		logout.gotoLogOut();
 	}	
 	

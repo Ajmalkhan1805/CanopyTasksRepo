@@ -1,5 +1,8 @@
 package com.ajmal.utilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -49,6 +52,7 @@ public class Utilities extends Page {
 
 	public static String screenshotPath;
 	public static String screenshotName;
+	
 
 	public static void captureScreenshot() throws IOException {
 
@@ -134,6 +138,28 @@ public class Utilities extends Page {
 	}
 	
 	
+	
+	public static void pressDown(){
+		try {
+			robot = new Robot();
+			robot.keyPress(KeyEvent.VK_KP_DOWN);
+			robot.keyRelease(KeyEvent.VK_KP_DOWN);
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void pressTab(){
+		try {
+			robot = new Robot();
+			robot.keyPress(KeyEvent.VK_TAB);
+			robot.keyRelease(KeyEvent.VK_TAB);
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		
+	}
 
 	public static String WriteProperties() {
 		
@@ -271,9 +297,6 @@ public class Utilities extends Page {
 	 	}
 	
 	public static boolean verifyElementPresent(WebElement elemt) {
-		StackTraceElement caller = new Throwable().getStackTrace()[1];
-		String callerInfo = caller.getClassName() + " " + caller.getMethodName() + " line " + caller.getLineNumber();
-		log.debug(callerInfo+ ": Verify presence of element " + elemt.toString());
 		try {
 			if (elemt.isDisplayed()) {
 				return true;

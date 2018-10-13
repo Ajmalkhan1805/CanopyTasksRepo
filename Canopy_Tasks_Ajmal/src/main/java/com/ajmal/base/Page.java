@@ -46,7 +46,7 @@ public class Page {
 	public static ExtentTest test;
 	public static String browser;
 	public static WebDriverWait newWait;
-	public static Robot robt;
+	public static Robot robot;
 	public static Actions action;
 	public static TopNavigation topNav;
 	public static String TempName = "";
@@ -82,11 +82,10 @@ public class Page {
 		driver.get(Constants.testsiteurl);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Constants.implicitwait, TimeUnit.SECONDS);
-		try {
-			robt = new Robot();} catch (AWTException e) {e.printStackTrace();
-		}
+		
 		topNav = new TopNavigation(driver);
 		wait = new WebDriverWait(driver, 20);
+		
 		action = new Actions(driver);
 	}
 	

@@ -102,11 +102,12 @@ public ReportTemplateDesignLocators design;
 	
 	
 	public void selectBaseTemplateDL(){
-		
 		test.log(LogStatus.INFO, "Select Base Template DL", "");
 		click(design.chooseStyleTemplateDropdown);	
 		Utilities.waitFor(1000);
 		click(design.baseTemplateDL);
+		Utilities.waitForJSAndJQToLoad();
+		Utilities.pressTab();
 	}
 	
 	public void saveReportTemplate(){
@@ -135,8 +136,8 @@ public ReportTemplateDesignLocators design;
 		Utilities.waitFor(2000);
 		wait.until(ExpectedConditions.visibilityOf(design.readyToAssignOption));
 		click(design.readyToAssignOption);
-		robt.keyPress(KeyEvent.VK_TAB);
-		robt.keyRelease(KeyEvent.VK_TAB);
+		robot.keyPress(KeyEvent.VK_TAB);
+		robot.keyRelease(KeyEvent.VK_TAB);
 		
 	}
 	
@@ -232,28 +233,18 @@ public ReportTemplateDesignLocators design;
 	
 	
 	//To Verify Template Status 
-	public String checkTemplateStatus(String TempName) throws Exception{
-		String statusOfTemplate = "";
-		List<WebElement> rows_table = design.templatesGrid.findElements(By.tagName("tr"));
-	    for (int row=0; row<rows_table.size(); row++){
-	      	List<WebElement> Col_row = rows_table.get(row).findElements(By.tagName("td"));
-	      	for (int column=0; column<Col_row.size(); column++){
-	      		String celtext = Col_row.get(column).getText();
-	      		if (celtext.equalsIgnoreCase(TempName)) {
-      			  int rowVal = row+1;
-      			  statusOfTemplate = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/section[1]/reporting-manage-component[1]/section[1]/div[1]/div[5]/table[1]/tbody[1]/tr["+rowVal+"]/td[8]")).getText();
-      			  break;
-					}
-	      		else
-	      		{
-	      			log.debug("Template not found");
-	      			return "Template not found";
-	      			
-	      		}
-	      	}
-	      	
-	      }
-	    return statusOfTemplate;
+	public void VerifyTemplateStatus(String TempName) throws Exception{
+		Utilities.waitForJSAndJQToLoad();
+		boolean isStatusUpdated = Utilities.verifyElementPresent(driver.findElement(By.xpath("//tr[contains(.,'" + TempName + "') and contains(.,'Ready To Assign')]")));
+		if(isStatusUpdated) {
+			log.debug("Template status successfully updated to Ready To Assign");
+			test.log(LogStatus.PASS, "Template status successfulley updated to Ready To Assign");
+		}else
+		{
+			log.debug("Template status is not changed to Ready To Assign");
+			test.log(LogStatus.FAIL, "Template status is not changed to Ready To Assign");
+		}
+	
 	}
 	
 	
