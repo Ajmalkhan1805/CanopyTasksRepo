@@ -346,4 +346,9 @@ public class Utilities extends Page {
 		}
 	}
 	
+	
+	public static void executeClick(WebElement e){
+	JavascriptExecutor executor = (JavascriptExecutor) driver;
+	executor.executeScript("arguments[0].click();", e);
+	}
 }

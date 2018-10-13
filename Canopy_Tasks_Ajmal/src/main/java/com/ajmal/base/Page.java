@@ -97,6 +97,12 @@ public class Page {
 		test.log(LogStatus.INFO, "Clicking on : " +element);
 	}
 	
+	public static void clear(WebElement element) {
+		
+		element.clear();
+		log.debug("Clearing values from Element : "+element);
+		test.log(LogStatus.INFO, "Clearing values from : " +element);
+	}
 	
 	public static void type(WebElement element, String value1) {
 		

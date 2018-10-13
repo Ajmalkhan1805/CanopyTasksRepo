@@ -50,8 +50,8 @@ public class ReportsTest extends Page {
 		designPage.searchTemplate(TemplateName);
 		actualStatus = designPage.resultantTemplateName();
 		ErrorCollector.validateResults(actualStatus, TemplateName);
-		test.log(LogStatus.INFO, "Expected Template: "+TemplateName, "");
-		test.log(LogStatus.INFO, "Actual Template  : "+actualStatus, "");
+		test.log(LogStatus.INFO, "Expected Template: "+TemplateName);
+		test.log(LogStatus.INFO, "Actual Template  : "+actualStatus);
 		logout.gotoLogOut();
 	}
 	
@@ -98,10 +98,10 @@ public class ReportsTest extends Page {
 		
 		actualStatus = designPage.lookforTemplate(CopyTemplateName);
 		Utilities.UpdatePorperties("CopiedTemplateName", CopyTemplateName);
-		test.log(LogStatus.INFO, "Validate that the template copy created by you in Step 6 is present in the table.", "");
+		test.log(LogStatus.INFO, "Validate that the template copy created by you in Step 6 is present in the table.");
 		ErrorCollector.validateResults(actualStatus, CopyTemplateName);
-		test.log(LogStatus.INFO, "Expected Template Name: "+CopyTemplateName, "");
-		test.log(LogStatus.INFO, "Actual Template Name: "+actualStatus+"", "");
+		test.log(LogStatus.INFO, "Expected Template Name: "+CopyTemplateName);
+		test.log(LogStatus.INFO, "Actual Template Name: "+actualStatus+"");
 		logout.gotoLogOut();
 	}
 	
@@ -126,13 +126,13 @@ public class ReportsTest extends Page {
 		designPage.DeleteSelectedTemplates();
 		designPage.Confirm();
 
-		test.log(LogStatus.INFO, "Validate that the two templates created by you are no longer present in the table.", "");
+		test.log(LogStatus.INFO, "Validate that the two templates created by you are no longer present in the table.");
 		actualStatus = designPage.VerifyDeletion(newTemplateName);
-		test.log(LogStatus.INFO, "Given Template Name : "+newTemplateName, "");
+		test.log(LogStatus.INFO, "Given Template Name : "+newTemplateName);
 		ErrorCollector.validateResults(actualStatus, "No records available");
 		
 		actualStatus = designPage.VerifyDeletion(copiedTemplateName);
-		test.log(LogStatus.INFO, "Given Template Name : "+copiedTemplateName, "");
+		test.log(LogStatus.INFO, "Given Template Name : "+copiedTemplateName);
 		ErrorCollector.validateResults(actualStatus, "No records available");
 		logout.gotoLogOut();
 	}	

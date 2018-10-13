@@ -31,7 +31,6 @@ public class ReportTemplateDesignPage extends Page {
 public ReportTemplateDesignLocators design;
 
 	
-
 	public ReportTemplateDesignPage(){
 		
 		this.design = new ReportTemplateDesignLocators();
@@ -70,9 +69,9 @@ public ReportTemplateDesignLocators design;
 
 	public void searchTemplate(String TemplateName){
 		test.log(LogStatus.INFO, "In the table, in the Name column, enter the unique report template name that you had previously given.");
+		clear(design.nameOfTemplate);
 		type(design.nameOfTemplate,TemplateName );
 		design.nameOfTemplate.sendKeys(Keys.ENTER);
-		
 	}
 	
 	
@@ -96,17 +95,18 @@ public ReportTemplateDesignLocators design;
 		 Utilities.waitFor(1000);
 		//click(design.styleTemplate); --> It works but takes time, so replacing this with below code
 		type(design.filterInput, "Style template");	
-		 Utilities.waitFor(2000);
+		Utilities.waitFor(2000);
 		design.filterInput.sendKeys(Keys.TAB);
 	}
 	
 	
 	public void selectBaseTemplateDL(){
+		Utilities.waitForJSAndJQToLoad();
 		test.log(LogStatus.INFO, "Select Base Template DL");
 		click(design.chooseStyleTemplateDropdown);	
-		Utilities.waitFor(1500);
+		Utilities.waitFor(2000);
 		if(Utilities.verifyElementPresent(design.baseTemplateDL)){
-		click(design.baseTemplateDL);
+		Utilities.executeClick(design.baseTemplateDL);
 		test.log(LogStatus.INFO, "Base Template DL found in list and selected");
 		}else{
 		test.log(LogStatus.INFO, "Base Template DL found in list and selected");
@@ -141,8 +141,7 @@ public ReportTemplateDesignLocators design;
 		Utilities.waitFor(2000);
 		wait.until(ExpectedConditions.visibilityOf(design.readyToAssignOption));
 		click(design.readyToAssignOption);
-		robot.keyPress(KeyEvent.VK_TAB);
-		robot.keyRelease(KeyEvent.VK_TAB);
+		Utilities.pressTab();
 		
 	}
 	

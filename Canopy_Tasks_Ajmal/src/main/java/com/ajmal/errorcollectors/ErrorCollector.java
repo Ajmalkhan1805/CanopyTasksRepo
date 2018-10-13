@@ -149,9 +149,9 @@ public class ErrorCollector extends Page {
     public static void validateResults(String actual, String expected) {
     	try {
     		if (actual.equalsIgnoreCase(expected) ||actual.contains(expected)){
-    			test.log(LogStatus.PASS, "Validation successfull: Expected data matches Actual data "+"\n"+"Expected :"+expected+"\n"+"Expected :"+actual+"", "");
+    			test.log(LogStatus.PASS, "Validation successfull: Expected data matches Actual data "+"\n"+"Expected :"+expected+"\n"+"Expected :"+actual+"");
 			}else{
-				test.log(LogStatus.FAIL, "Validation Unsuccessfull: Expected : "+expected+", found : "+actual, "");
+				test.log(LogStatus.FAIL, "Validation Unsuccessfull: Expected : "+expected+", found : "+actual);
 			}
 				
 		} catch(Throwable e) {
