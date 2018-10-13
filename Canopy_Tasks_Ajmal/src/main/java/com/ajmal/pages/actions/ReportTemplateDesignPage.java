@@ -107,14 +107,12 @@ public ReportTemplateDesignLocators design;
 		Utilities.waitFor(1500);
 		if(Utilities.verifyElementPresent(design.baseTemplateDL)){
 		click(design.baseTemplateDL);
-		Utilities.waitFor(1000);
 		test.log(LogStatus.INFO, "Base Template DL found in list and selected");
 		}else{
 		test.log(LogStatus.INFO, "Base Template DL found in list and selected");
 		log.debug("Base Template DL not found in the list");
 		}
-		Utilities.waitForJSAndJQToLoad();
-		Utilities.pressTab();
+		click(design.nameLabel);
 	}
 	
 	public void saveReportTemplate(){
@@ -267,7 +265,7 @@ public ReportTemplateDesignLocators design;
 		}
 		else {
 			log.debug("Template is not available");
-			return "Template is not available";
+			return "Template is not available";	
 		}
 	}
 	

@@ -189,6 +189,7 @@ public AccountHoldingsPageLocators accHoldings;
 	
 	
 	public void ValidateSumValueAgainstCurrentValueUSD(String currentValueUSD, String SumOfSections){
+		test.log(LogStatus.INFO, "Validate that the values in current value and sum of contract header value");
 		String formatVal = Utilities.numberExtractor(currentValueUSD);
 		if(currentValueUSD.equalsIgnoreCase(SumOfSections)){
 			test.log(LogStatus.PASS, "Validation successfull: Expected data matches Actual data "+"\n"+"Expected :"+formatVal+"\n"+"Actual :"+SumOfSections+"");

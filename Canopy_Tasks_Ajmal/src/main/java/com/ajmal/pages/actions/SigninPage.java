@@ -26,7 +26,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class SigninPage extends Page {
 	
-	public SigninPageLocators signinPage;
+	public static SigninPageLocators signinPage;
 	public TopNavigationLocators topNavigaiton;
 	
 
