@@ -16,7 +16,7 @@ import com.relevantcodes.extentreports.LogStatus;
  * @author 			Ajmal
  * 	
  * @Purpose: 		Functions to validate results and capture errors.
- * 					Various Assertions and common validation methods are defined here.
+ * 					(Various Assertions and common validation methods are defined here)
  *  
  * @Date:			10/12/18
  * 

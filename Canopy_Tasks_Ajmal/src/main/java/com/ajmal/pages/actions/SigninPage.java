@@ -48,7 +48,6 @@ public class SigninPage extends Page {
 		type(signinPage.username,Constants.userName);
 		type(signinPage.password,Constants.password);
 		//click(signinPage.login);
-		//action.moveToElement(signinPage.login).click(signinPage.login).build().perform();
 		Utilities.HoverAndClick(signinPage.login);
 		Utilities.waitForJSAndJQToLoad();
 		Wait(topNavigaiton.account, 5);

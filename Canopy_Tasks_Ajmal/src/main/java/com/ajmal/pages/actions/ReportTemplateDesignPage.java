@@ -104,8 +104,15 @@ public ReportTemplateDesignLocators design;
 	public void selectBaseTemplateDL(){
 		test.log(LogStatus.INFO, "Select Base Template DL", "");
 		click(design.chooseStyleTemplateDropdown);	
-		Utilities.waitFor(1000);
+		Utilities.waitFor(1500);
+		if(Utilities.verifyElementPresent(design.baseTemplateDL)){
 		click(design.baseTemplateDL);
+		Utilities.waitFor(1000);
+		test.log(LogStatus.INFO, "Base Template DL found in list and selected", "");
+		}else{
+		test.log(LogStatus.INFO, "Base Template DL found in list and selected", "");
+		log.debug("Base Template DL not found in the list");
+		}
 		Utilities.waitForJSAndJQToLoad();
 		Utilities.pressTab();
 	}
